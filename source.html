@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+  
+    <meta charset="UTF-8">
+    <title>我的金句</title>
+  
+  
+    <center>
+      <h1>🙏🏻我的金句🙏🏻</h1>
+      <img src="https://stickershop.line-scdn.net/stickershop/v1/product/10162221/LINEStorePC/main.png?v=1" width="30%"><br>
+      <button onclick="Buddha()">🪷隨機金句🪷</button>
+      <p id="GoodLuck">做人做事，踏實好過疊水。</p>
+    </center>  
+      
+  
+                <script>var verses = [
+"屁乃肚中氣，誰人叫你貪心索入鼻",
+"朝早唔會空肚食早餐!",
+"做人做事，踏實好過疊水。",
+"左手又係肉，手背又係肉。左手打右手，右手唔痛咩？"
+]
+
+function Buddha(){
+   var random = parseInt(Math.random() * 4);
+   document.getElementById("GoodLuck").innerText = verses[random];
+}</script>
+            
+        
+    </body>
